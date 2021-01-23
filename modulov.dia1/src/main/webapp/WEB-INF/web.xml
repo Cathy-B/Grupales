@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0"
+  metadata-complete="true">
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Inicio</servlet-name>
+  	<display-name>Inicio</display-name>
+  	<description></description>
+  	<servlet-class>modulov.dia1.grupal1.Inicio</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Inicio</servlet-name>
+  	<url-pattern>/Inicio</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>Contacto</servlet-name>
+  	<display-name>Contacto</display-name>
+  	<description></description>
+  	<servlet-class>modulov.dia1.grupal1.Contacto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Contacto</servlet-name>
+  	<url-pattern>/Contacto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>CrearCapacitacion</servlet-name>
+  	<display-name>CrearCapacitacion</display-name>
+  	<description></description>
+  	<servlet-class>modulov.dia1.grupal1.CrearCapacitacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CrearCapacitacion</servlet-name>
+  	<url-pattern>/CrearCapacitacion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>ListarCapacitacion</servlet-name>
+  	<display-name>ListarCapacitacion</display-name>
+  	<description></description>
+  	<servlet-class>modulov.dia1.grupal1.ListarCapacitacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ListarCapacitacion</servlet-name>
+  	<url-pattern>/ListarCapacitacion</url-pattern>
+  </servlet-mapping>
+</web-app>

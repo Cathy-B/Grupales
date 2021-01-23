@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Inicio</servlet-name>
+  	<display-name>Inicio</display-name>
+  	<description></description>
+  	<servlet-class>modulov.dia1.grupal1.Inicio</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Contacto</servlet-name>
+  	<display-name>Contacto</display-name>
+  	<description></description>
+  	<servlet-class>modulov.dia1.grupal1.Contacto</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CrearCapacitacion</servlet-name>
+  	<display-name>CrearCapacitacion</display-name>
+  	<description></description>
+  	<servlet-class>modulov.dia1.grupal1.CrearCapacitacion</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListarCapacitacion</servlet-name>
+  	<display-name>ListarCapacitacion</display-name>
+  	<description></description>
+  	<servlet-class>modulov.dia1.grupal1.ListarCapacitacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Inicio</servlet-name>
+  	<url-pattern>/Inicio</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Contacto</servlet-name>
+  	<url-pattern>/Contacto</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CrearCapacitacion</servlet-name>
+  	<url-pattern>/CrearCapacitacion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListarCapacitacion</servlet-name>
+  	<url-pattern>/ListarCapacitacion</url-pattern>
+  </servlet-mapping>
+</web-app>
